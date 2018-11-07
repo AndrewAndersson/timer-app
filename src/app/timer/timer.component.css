@@ -1,0 +1,16 @@
+h1, p {
+  text-align: center;
+}
+button {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.green {
+  background: #13B008;
+}
+.red {
+  background: #FF0C0C;
+}
+.orange {
+  background: #FFBD00;
+}

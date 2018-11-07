@@ -1,0 +1,9 @@
+<div class="container">
+  <h1>Timer</h1>
+  <p>{{count | timeWiev}}</p>
+  <div class="btn-groups">
+    <button mat-raised-button [ngClass]="{'green': !isStart, 'red': isStart}" (click)="onClick()">{{!isStart? 'Start': 'Stop'}}</button>
+    <button mat-raised-button color="primary" #wait>Wait</button>
+    <button mat-raised-button class="orange" (click)="reset()">Reset</button>
+  </div>
+</div>
